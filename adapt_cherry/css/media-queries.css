@@ -1,0 +1,187 @@
+
+
+@media (max-width: 320px){
+	.toggle-menu{
+		top: 48% !important;
+	}
+	
+}
+
+@media (max-width: 480px){
+	.lists>ul>li{
+		width: 100% !important;
+		float: none;
+		padding-left: 10%;
+		padding-bottom: 10%;
+	}
+
+	.media{
+		width: 100%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	table{
+		width: 99%!important;
+		margin-left: 0.5%!important;
+	}
+	.table_text{
+		margin-left: 0.5%!important;
+	}
+	.footer_content section{
+		float: none;
+		width: 100% !important;
+		line-height: 24px;
+		font-size: 12px;
+		text-align: center;
+		padding-bottom: 10%;
+	}
+	.line_bg{
+		width: 55%;
+		margin-left: 23%;
+	}
+}
+
+@media (max-width: 600px){
+	header{
+		width: 100%;
+	}
+	.top-line{
+		height: 100%;
+	}
+	.logo{
+		float: none;
+	}
+	.toggle-menu{
+		top: 47.5%;
+	}
+	.logo{
+		padding-bottom: 2%;
+	}
+
+	.text_too{
+		width: 95%;
+	}
+	.form-s{
+		display: none;
+	}
+
+	.search-too li{
+		display: inline-block;
+
+	}
+	.contact_us{
+		padding-left: 10%!important;
+		padding-right: 10%!important;
+	}
+	.cards li{
+		width: 100% !important;
+		margin-right: 0;
+	}
+	.lists>ul>li {
+		width: calc(100% / 3);
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	table{
+		width: 97%;
+		margin-left: 2%;
+	}
+	.table_text{
+		margin-left: 2%;
+	}
+	.footer_content section{
+		width: calc(100% / 3);
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 720px){
+	.cards li{
+		width: calc(90% / 3);
+		margin-right: 10%;
+	}
+	.cards li:last-child{
+		width: 100%;
+	}	
+}
+
+@media (max-width: 768px){
+	.toggle-menu{
+		display: block;
+	}
+	.red-line{
+		display: block;
+	}
+	nav{
+		display: none;
+		width: 100%;
+		background: #95161f;
+		height: 100%;
+	}
+	nav, nav li{
+		float: none;
+	}
+	nav li a{
+		width: 100%;
+		color: #fff;
+		text-align: center;
+	}
+	.bread-crumbs{
+		width: 100%;
+	}
+	.main{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+	.cards li{
+		width: 100%;
+	}
+	
+
+}
+
+@media (min-width: 769px){
+	nav{
+		display: block !important;
+	}
+}
+
+@media (max-width: 900px){
+	.form-s{
+		margin-right: 3%;
+	}
+	aside{
+		width: 100%;
+	}
+	.contact_us{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.headline{
+		padding-left: 3%;
+	}
+	.main{
+		width: 100%;
+		padding-left: 5%;
+	}
+	.cards li{
+		width: calc(90% / 3);
+	}
+	table{
+		width: 89%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.table_text{
+		margin-left: 5%;
+	}
+	footer{
+		padding-left: 5%;
+	}
+}
+
+
+
